@@ -409,6 +409,10 @@ footer {
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media (max-width: 768px) {
+  .container  {
+    width: 100%;
+    overflow-x: hidden;
+  }
   .header__description {
     padding: 0 24px;
   }
@@ -433,6 +437,13 @@ footer {
 
 /* SMALL PHONES, LARGE SMARTPHONES */
 @media (max-width: 550px) {
+  .container  {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .nav__container {
+    height: 68px;
+  }
   .btn__menu {
     display: block;
   }
